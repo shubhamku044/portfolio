@@ -1,0 +1,26 @@
+@import 'variables';
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+
+	&-track {
+		background-color: $color-dark-background;
+	}
+
+	&-thumb {
+		background-color: #49545b;
+		border-radius: 15rem;
+
+		&:hover {
+			background-color: #49545b;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+@import 'variables';
+
+.custom-button {
+	border: 0.1rem solid white;
+	font-weight: 400;
+	padding: 0.6rem 2rem;
+
+	&:link,
+	&:visited {
+		text-decoration: none;
+		color: $color-dark-header;
+	}
+}

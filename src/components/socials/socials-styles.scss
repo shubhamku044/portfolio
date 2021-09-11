@@ -1,0 +1,19 @@
+.social__handle {
+	&-sidebar {
+		position: fixed;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		left: 4rem;
+		top: 0;
+		height: 100%;
+	}
+
+	&-icon {
+		width: 3.5rem;
+
+		&:not(:last-child) {
+			margin-bottom: 4rem;
+		}
+	}
+}
