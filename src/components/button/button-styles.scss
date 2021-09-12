@@ -1,13 +1,29 @@
 @import 'variables';
 
 .custom-button {
-	border: 0.1rem solid white;
-	font-weight: 400;
-	padding: 0.6rem 2rem;
+	margin-top: 2.5rem;
+	transition: all 0.3s;
 
-	&:link,
-	&:visited {
-		text-decoration: none;
-		color: $color-dark-header;
+	a {
+		&,
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: $color-dark-header;
+			background-color: $color-orange;
+			border-radius: 0.5rem;
+			font-size: 2rem;
+			color: $color-gray;
+			border: 0.1rem solid $color-gray;
+			font-weight: 500;
+			padding: 0.8rem 2.5rem;
+		}
+	}
+
+	&:hover {
+		transform: translateY(-0.2rem) !important;
+	}
+	&:active {
+		transform: translateY(0) !important;
 	}
 }

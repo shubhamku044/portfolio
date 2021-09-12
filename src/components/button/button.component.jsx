@@ -1,12 +1,13 @@
 import React from 'react';
 import './button-styles.scss';
-import { Link } from 'react-router-dom';
 
 const CustomButton = (props) => {
 	return (
-		<button className="custom-button">
-			<Link to={props.to}>{props.children}</Link>
-		</button>
+		<div className="custom-button">
+			<a href={props.href} target="_blank" rel="noreferrer">
+				{props.children}
+			</a>
+		</div>
 	);
 };
 

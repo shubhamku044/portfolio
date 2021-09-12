@@ -1,0 +1,58 @@
+@import 'variables';
+
+.header {
+	display: flex;
+	margin: 8rem auto;
+	justify-content: space-between;
+	color: $color-gray;
+	// width: 100%;
+
+	&__left {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 60%;
+		letter-spacing: 0.2rem;
+
+		&-text {
+			&:not(:last-child) {
+				margin-bottom: 1rem;
+			}
+		}
+
+		&-primary {
+			font-size: 6.2rem;
+			font-weight: 600;
+			span {
+				color: $color-orange;
+			}
+		}
+
+		&-secondary {
+			font-size: 4.5rem;
+			font-weight: 400;
+		}
+
+		&-tertiary {
+			font-size: 3.5rem;
+			font-weight: 300;
+		}
+
+		&-cta {
+			margin: 0 auto;
+			width: 60%;
+		}
+	}
+
+	&__right {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		&-img {
+			// margin: auto;
+			width: 40rem;
+			height: auto;
+		}
+	}
+}

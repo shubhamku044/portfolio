@@ -10,10 +10,19 @@
 	}
 
 	&-icon {
-		width: 3.5rem;
+		&,
+		&:link,
+		&:visited {
+			text-decoration: none;
+		}
 
 		&:not(:last-child) {
 			margin-bottom: 4rem;
 		}
+	}
+
+	&-img {
+		width: 3rem;
+		height: auto;
 	}
 }

@@ -16,9 +16,9 @@ html {
 body {
 	box-sizing: border-box;
 	background-color: $color-dark-background;
-	height: 500vh;
 }
 
 .wrapper {
-	width: 85vw;
+	position: relative;
+	width: 80vw;
 }
