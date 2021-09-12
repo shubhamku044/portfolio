@@ -29,7 +29,7 @@ const AboutPage = () => {
 			<div className="about-me">
 				<div className="about__left">
 					<h1 className="about__left-primary about__left-text">
-						Hi, I'm &nbsp;
+						Hi, I'm&nbsp;
 						<span className="about__left-orange">Shubham</span>.
 					</h1>
 					<h3 className="about__left-secondary about__left-text">
