@@ -1,9 +1,9 @@
 @import 'variables';
 
 .about {
-	margin: 8rem auto;
+	margin: 8rem auto 2rem auto;
 	color: $color-gray;
-    
+
 	&-me {
 		display: flex;
 		justify-content: space-between;
@@ -49,6 +49,33 @@
 		&-img {
 			width: 65%;
 			height: auto;
+		}
+	}
+
+	&-skills {
+		font-size: $heading-secondary;
+		font-weight: 600;
+		color: $color-orange;
+		margin-bottom: 5rem;
+		margin-top: 10rem;
+	}
+
+	&__logo {
+		&-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+			gap: 20px 26px;
+			grid-auto-flow: row;
+			grid-template-areas:
+				'. . . . .'
+				'. . . . .'
+				'. . . . .';
+		}
+
+		&-item {
+			margin: auto;
+			width: 65%;
 		}
 	}
 }

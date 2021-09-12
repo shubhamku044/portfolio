@@ -1,6 +1,21 @@
 import React from 'react';
 import './about-styles.scss';
 import MyImage from './../../assets/my pic.png';
+import Css from './../../assets/css.svg';
+import Figma from './../../assets/figma.svg';
+import Flask from './../../assets/flask.svg';
+import Git from './../../assets/git.svg';
+import Html from './../../assets/html.svg';
+import Javascript from './../../assets/javascript.svg';
+import MaterialUi from './../../assets/material-ui.svg';
+import NodeJs from './../../assets/node-js.svg';
+import Python from './../../assets/python.svg';
+import ReactLogo from './../../assets/react.svg';
+import Redux from './../../assets/redux.svg';
+import Sass from './../../assets/sass.svg';
+import Selenium from './../../assets/selenium.svg';
+import TailwindCss from './../../assets/tailwind-css.svg';
+import VsCode from './../../assets/vscode.svg';
 
 const AboutPage = () => {
 	const getAge = (birthDate) => {
@@ -37,7 +52,40 @@ const AboutPage = () => {
 				</div>
 			</div>
 
-			<h2>My Skills</h2>
+			<h2 className="about-skills">My Skills</h2>
+			<div className="about__logo-container">
+				<img src={Html} alt="html" className="about__logo-item" />
+				<img src={Css} alt="css" className="about__logo-item" />
+				<img
+					src={Javascript}
+					alt="javascript"
+					className="about__logo-item"
+				/>
+				<img src={ReactLogo} alt="react" className="about__logo-item" />
+				<img src={Redux} alt="redux" className="about__logo-item" />
+				<img src={Python} alt="python" className="about__logo-item" />
+				<img src={Flask} alt="flask" className="about__logo-item" />
+				<img
+					src={Selenium}
+					alt="selenium"
+					className="about__logo-item"
+				/>
+				<img src={Figma} alt="figma" className="about__logo-item" />
+				<img src={Git} alt="git" className="about__logo-item" />
+				<img src={Sass} alt="sass" className="about__logo-item" />
+				<img src={NodeJs} alt="node js" className="about__logo-item" />
+				<img
+					src={MaterialUi}
+					alt="material ui"
+					className="about__logo-item"
+				/>
+				<img
+					src={TailwindCss}
+					alt="tailwind css"
+					className="about__logo-item"
+				/>
+				<img src={VsCode} alt="vs code" className="about__logo-item" />
+			</div>
 		</main>
 	);
 };

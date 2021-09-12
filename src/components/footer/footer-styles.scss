@@ -2,12 +2,13 @@
 
 .footer {
 	position: absolute;
+	padding: 2rem 0;
 	display: flex;
 	margin: 0 auto;
 	justify-content: center;
 	color: $color-gray;
 	font-size: 1.6rem;
-	bottom: 0;
+	bottom: -6rem;
 	width: 100%;
 
 	&__icon {
