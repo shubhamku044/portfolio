@@ -1,10 +1,10 @@
 @import 'variables';
 
 .header {
-	display: flex;
-	margin: 8rem auto;
-	justify-content: space-between;
 	color: $color-gray;
+	display: flex;
+	justify-content: space-between;
+	margin: 8rem auto;
 	// width: 100%;
 
 	&__left {
@@ -12,7 +12,7 @@
 		flex-direction: column;
 		justify-content: center;
 		width: 60%;
-		letter-spacing: 0.2rem;
+		letter-spacing: 0.1rem;
 
 		&-text {
 			&:not(:last-child) {
@@ -21,7 +21,7 @@
 		}
 
 		&-primary {
-			font-size: 6.2rem;
+			font-size: $heading-primary;
 			font-weight: 600;
 			span {
 				color: $color-orange;
@@ -29,12 +29,12 @@
 		}
 
 		&-secondary {
-			font-size: 4.5rem;
+			font-size: $heading-secondary;
 			font-weight: 400;
 		}
 
 		&-tertiary {
-			font-size: 3.5rem;
+			font-size: $heading-tertiary;
 			font-weight: 300;
 		}
 
