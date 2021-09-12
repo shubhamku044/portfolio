@@ -11,7 +11,7 @@ function App() {
 			<Header />
 			<SocialHandle />
 			<Switch>
-				<Route exact path="portfolio/" component={HomePage} />
+				<Route exact path="/portfolio" component={HomePage} />
 			</Switch>
 			<Footer />
 		</div>
