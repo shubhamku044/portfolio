@@ -7,7 +7,7 @@ const Header = () => {
 		<div className="navigation wrapper">
 			<nav className="navigation__nav">
 				<div className="navigation__logo">
-					<Link to="/" className="navigation__link">
+					<Link to="/portfolio" className="navigation__link">
 						shubham
 					</Link>
 				</div>
