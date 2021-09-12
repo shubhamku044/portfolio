@@ -1,26 +1,41 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.064aa457.chunk.css",
-    "main.js": "/portfolio/static/js/main.efb8942c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.efb8942c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.77864f2b.chunk.css",
+    "main.js": "/portfolio/static/js/main.6d38a819.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6d38a819.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
     "static/js/2.5d80f16d.chunk.js": "/portfolio/static/js/2.5d80f16d.chunk.js",
     "static/js/2.5d80f16d.chunk.js.map": "/portfolio/static/js/2.5d80f16d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.064aa457.chunk.css.map": "/portfolio/static/css/main.064aa457.chunk.css.map",
+    "static/css/main.77864f2b.chunk.css.map": "/portfolio/static/css/main.77864f2b.chunk.css.map",
     "static/js/2.5d80f16d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5d80f16d.chunk.js.LICENSE.txt",
+    "static/media/css.49122925.svg": "/portfolio/static/media/css.49122925.svg",
+    "static/media/figma.207bb17a.svg": "/portfolio/static/media/figma.207bb17a.svg",
+    "static/media/flask.04468cf8.svg": "/portfolio/static/media/flask.04468cf8.svg",
+    "static/media/git.69ac8a8f.svg": "/portfolio/static/media/git.69ac8a8f.svg",
     "static/media/github.4efcb635.svg": "/portfolio/static/media/github.4efcb635.svg",
     "static/media/homepage_illustration.501ec101.svg": "/portfolio/static/media/homepage_illustration.501ec101.svg",
+    "static/media/html.665268e3.svg": "/portfolio/static/media/html.665268e3.svg",
     "static/media/instagram.722835a3.svg": "/portfolio/static/media/instagram.722835a3.svg",
+    "static/media/javascript.e5e90ac4.svg": "/portfolio/static/media/javascript.e5e90ac4.svg",
     "static/media/linkedin.d2d70022.svg": "/portfolio/static/media/linkedin.d2d70022.svg",
+    "static/media/material-ui.880f5358.svg": "/portfolio/static/media/material-ui.880f5358.svg",
     "static/media/my pic.162008fc.png": "/portfolio/static/media/my pic.162008fc.png",
-    "static/media/twitter.39ed38df.svg": "/portfolio/static/media/twitter.39ed38df.svg"
+    "static/media/node-js.53805472.svg": "/portfolio/static/media/node-js.53805472.svg",
+    "static/media/python.07c0e523.svg": "/portfolio/static/media/python.07c0e523.svg",
+    "static/media/react.c3556619.svg": "/portfolio/static/media/react.c3556619.svg",
+    "static/media/redux.86524ba5.svg": "/portfolio/static/media/redux.86524ba5.svg",
+    "static/media/sass.30bf1629.svg": "/portfolio/static/media/sass.30bf1629.svg",
+    "static/media/selenium.7c370c3d.svg": "/portfolio/static/media/selenium.7c370c3d.svg",
+    "static/media/tailwind-css.4685e9a6.svg": "/portfolio/static/media/tailwind-css.4685e9a6.svg",
+    "static/media/twitter.39ed38df.svg": "/portfolio/static/media/twitter.39ed38df.svg",
+    "static/media/vscode.5f697284.svg": "/portfolio/static/media/vscode.5f697284.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
     "static/js/2.5d80f16d.chunk.js",
-    "static/css/main.064aa457.chunk.css",
-    "static/js/main.efb8942c.chunk.js"
+    "static/css/main.77864f2b.chunk.css",
+    "static/js/main.6d38a819.chunk.js"
   ]
 }
