@@ -1,29 +1,17 @@
 @import 'variables';
 
 .custom-button {
-	margin-top: 2.5rem;
-	transition: all 0.3s;
-
-	a {
-		&,
-		&:link,
-		&:visited {
-			text-decoration: none;
-			color: $color-dark-header;
-			background-color: $color-orange;
-			border-radius: 0.5rem;
-			font-size: 2rem;
-			color: $color-gray;
-			border: 0.1rem solid $color-gray;
-			font-weight: 500;
-			padding: 0.8rem 2.5rem;
-		}
-	}
-
-	&:hover {
-		transform: translateY(-0.2rem) !important;
-	}
-	&:active {
-		transform: translateY(0) !important;
+	&,
+	&:link,
+	&:visited {
+		text-decoration: none;
+		color: $color-dark-header;
+		background-color: $color-orange;
+		border-radius: 0.5rem;
+		font-size: 2rem;
+		color: $color-gray;
+		border: 0.1rem solid $color-gray;
+		font-weight: 500;
+		padding: $btn-padding-tb $btn-padding-rl;
 	}
 }

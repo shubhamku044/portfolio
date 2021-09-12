@@ -17,8 +17,11 @@ const HomePage = () => {
 				<h3 className="header__left-tertiary header__left-text">
 					I create websites so that people can furthur go online.
 				</h3>
-				<div className="header__left-cta header__left-text">
-					<CustomButton href="mailto:shubhamku044@gmail.com">
+				<div className="header__left-cta">
+					<CustomButton
+						href="mailto:shubhamku044@gmail.com"
+						className="header__left-btn"
+					>
 						Get in touch
 					</CustomButton>
 				</div>

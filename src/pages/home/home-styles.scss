@@ -39,8 +39,19 @@
 		}
 
 		&-cta {
-			margin: 0 auto;
-			width: 60%;
+			margin: 2rem auto;
+			transition: all 0.3s;
+
+			&:hover {
+				transform: translateY(-0.2rem) !important;
+			}
+			&:active {
+				transform: translateY(0) !important;
+			}
+		}
+
+		&-btn {
+			display: inline-block;
 		}
 	}
 
@@ -50,8 +61,7 @@
 		align-items: center;
 
 		&-img {
-			// margin: auto;
-			width: 40rem;
+			width: 90%;
 			height: auto;
 		}
 	}

@@ -1,0 +1,47 @@
+@import 'variables';
+
+.footer {
+	position: absolute;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	color: $color-gray;
+	font-size: 1.6rem;
+	bottom: 0;
+	width: 100%;
+
+	&__icon {
+		width: 2rem;
+
+		&-box {
+			display: flex;
+		}
+
+		&-container {
+			display: flex;
+		}
+	}
+
+	&__link {
+		&,
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: $color-footer;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			letter-spacing: 0.15rem;
+			transition: all 0.3s;
+		}
+		&:hover,
+		&:active {
+			color: $color-gray;
+		}
+	}
+
+	&__text {
+		margin-bottom: 0.5rem;
+	}
+}

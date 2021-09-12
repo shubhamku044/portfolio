@@ -3,11 +3,14 @@ import './button-styles.scss';
 
 const CustomButton = (props) => {
 	return (
-		<div className="custom-button">
-			<a href={props.href} target="_blank" rel="noreferrer">
-				{props.children}
-			</a>
-		</div>
+		<a
+			href={props.href}
+			target="_blank"
+			rel="noreferrer"
+			className="custom-button"
+		>
+			{props.children}
+		</a>
 	);
 };
 

@@ -1,6 +1,8 @@
 @import 'variables';
 
 .navigation {
+	position: absolute;
+	top: 0;
 	display: flex;
 	margin: 2rem auto 0 auto;
 	text-transform: uppercase;
@@ -8,9 +10,10 @@
 	justify-content: center;
 
 	&__button {
-		padding: 0.6rem 2.5rem;
+		padding: 0.6rem $btn-padding-rl;
 		background-color: transparent;
 		border: 1px solid $color-dark-header;
+		border-radius: 0.2rem;
 		color: $color-dark-header;
 		font-weight: 400;
 		transition: all 0.4s;
@@ -35,7 +38,7 @@
 		&:link,
 		&:visited {
 			text-decoration: none;
-			color: #fffecb;
+			color: $color-dark-header;
 		}
 		/*
 		&:hover {
@@ -47,14 +50,14 @@
 	&__list {
 		display: flex;
 		flex-grow: 1;
-		font-size: 2rem;
+		font-size: $font-navigation;
 		font-weight: 200;
 		justify-content: flex-end;
 		list-style-type: none;
 	}
 
 	&__logo {
-		font-size: 2.5rem;
+		font-size: $font-logo;
 		font-weight: 700;
 	}
 
