@@ -22,6 +22,15 @@
 			width: 100%;
 			display: flex;
 			justify-content: center;
+
+			transition: all 0.3s;
+
+			&:hover {
+				transform: translateY(-0.2rem) !important;
+			}
+			&:active {
+				transform: translateY(0) !important;
+			}
 		}
 	}
 
