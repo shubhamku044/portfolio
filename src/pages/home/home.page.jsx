@@ -15,7 +15,7 @@ const HomePage = () => {
 					I’m a Freelancer, Web developer.
 				</h2>
 				<h3 className="header__left-tertiary header__left-text">
-					I create websites so that people can furthur go online.
+					I create websites so that people can further go online.
 				</h3>
 				<div className="header__left-cta">
 					<CustomButton
