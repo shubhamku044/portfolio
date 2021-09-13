@@ -28,12 +28,12 @@ const Header = () => {
 						</Link>
 					</li>
 					<li className="navigation__item">
-						<Link
-							to="/contact"
+						<a
+							href="mailto:shubhamku044@gmail.com"
 							className="navigation__link navigation__button"
 						>
 							contact
-						</Link>
+						</a>
 					</li>
 				</ul>
 			</nav>
