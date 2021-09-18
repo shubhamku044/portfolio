@@ -1,0 +1,22 @@
+@import 'variables';
+
+.project-card {
+	display: flex;
+	flex-direction: column;
+	color: $color-gray;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 298px;
+	margin: 2rem;
+
+	&__img {
+		max-width: 95%;
+	}
+	&__title {
+	}
+	&__description {
+	}
+	&__link {
+	}
+}
