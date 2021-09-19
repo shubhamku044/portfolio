@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.053c3afc.chunk.css",
-    "main.js": "/portfolio/static/js/main.f77deec5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f77deec5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4df5b9b2.chunk.css",
+    "main.js": "/portfolio/static/js/main.3278d49a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3278d49a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
-    "static/js/2.9cbb7009.chunk.js": "/portfolio/static/js/2.9cbb7009.chunk.js",
-    "static/js/2.9cbb7009.chunk.js.map": "/portfolio/static/js/2.9cbb7009.chunk.js.map",
+    "static/js/2.cc37736e.chunk.js": "/portfolio/static/js/2.cc37736e.chunk.js",
+    "static/js/2.cc37736e.chunk.js.map": "/portfolio/static/js/2.cc37736e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.053c3afc.chunk.css.map": "/portfolio/static/css/main.053c3afc.chunk.css.map",
-    "static/js/2.9cbb7009.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9cbb7009.chunk.js.LICENSE.txt",
+    "static/css/main.4df5b9b2.chunk.css.map": "/portfolio/static/css/main.4df5b9b2.chunk.css.map",
+    "static/js/2.cc37736e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cc37736e.chunk.js.LICENSE.txt",
     "static/media/css.49122925.svg": "/portfolio/static/media/css.49122925.svg",
     "static/media/figma.207bb17a.svg": "/portfolio/static/media/figma.207bb17a.svg",
     "static/media/flask.04468cf8.svg": "/portfolio/static/media/flask.04468cf8.svg",
@@ -23,6 +23,7 @@
     "static/media/material-ui.880f5358.svg": "/portfolio/static/media/material-ui.880f5358.svg",
     "static/media/my pic.162008fc.png": "/portfolio/static/media/my pic.162008fc.png",
     "static/media/node-js.53805472.svg": "/portfolio/static/media/node-js.53805472.svg",
+    "static/media/project_dummy.7cd52a25.png": "/portfolio/static/media/project_dummy.7cd52a25.png",
     "static/media/python.07c0e523.svg": "/portfolio/static/media/python.07c0e523.svg",
     "static/media/react.c3556619.svg": "/portfolio/static/media/react.c3556619.svg",
     "static/media/redux.86524ba5.svg": "/portfolio/static/media/redux.86524ba5.svg",
@@ -34,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
-    "static/js/2.9cbb7009.chunk.js",
-    "static/css/main.053c3afc.chunk.css",
-    "static/js/main.f77deec5.chunk.js"
+    "static/js/2.cc37736e.chunk.js",
+    "static/css/main.4df5b9b2.chunk.css",
+    "static/js/main.3278d49a.chunk.js"
   ]
 }
