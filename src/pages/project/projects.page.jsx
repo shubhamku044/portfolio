@@ -1,6 +1,5 @@
 import React from 'react';
 import './projects-styles.scss';
-import projectImg from './../../assets/project_dummy.png';
 import ProjectCard from './../../components/card/project.component';
 import projects from './projects.data';
 
