@@ -19,24 +19,6 @@
 
 		&-container {
 			position: relative;
-			// &:hover {
-			// 	display: inline-block;
-			// 	background: -webkit-linear-gradient(
-			// 		to bottom right,
-			// 		rgba($gradient-primary, 0.7),
-			// 		rgba($gradient-secondary, 0.6)
-			// 	);
-			// 	background: -moz-linear-gradient(
-			// 		to bottom right,
-			// 		rgba($gradient-primary, 0.7),
-			// 		rgba($gradient-secondary, 0.6)
-			// 	);
-			// 	background: linear-gradient(
-			// 		to bottom right,
-			// 		rgba($gradient-primary, 0.7),
-			// 		rgba($gradient-secondary, 0.6)
-			// 	);
-			// }
 		}
 	}
 
@@ -44,11 +26,13 @@
 		margin: 0.5rem auto;
 		font-size: $project-title;
 		font-weight: 500;
+		color: $color-dark-header;
 	}
 
 	&__description {
 		font-size: $project-description;
 		font-weight: 200;
+		color: $color-gray;
 	}
 
 	&__link {
@@ -62,14 +46,34 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
+			background: -webkit-linear-gradient(
+				to bottom right,
+				rgba($gradient-primary, 0.9),
+				rgba($gradient-secondary, 0.9)
+			);
+			background: -moz-linear-gradient(
+				to bottom right,
+				rgba($gradient-primary, 0.9),
+				rgba($gradient-secondary, 0.9)
+			);
+			background: linear-gradient(
+				to bottom right,
+				rgba($gradient-primary, 0.9),
+				rgba($gradient-secondary, 0.9)
+			);
+			opacity: 0;
+			transition: all 0.4s linear;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-transform: uppercase;
 		}
 
 		&:hover {
-			background: linear-gradient(
-				to bottom right,
-				rgba($gradient-primary, 0.7),
-				rgba($gradient-secondary, 0.6)
-			);
+			opacity: 1;
+			font-size: $font-logo;
+			font-weight: 600;
+			color: $color-dark-header;
 		}
 	}
 }

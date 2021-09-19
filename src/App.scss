@@ -21,6 +21,26 @@ body {
 .wrapper {
 	position: relative;
 	width: 80vw;
+	@media screen and (min-width: 480px) {
+		& {
+			max-width: 430px;
+		}
+	}
+	@media screen and (min-width: 768px) {
+		& {
+			max-width: 740px;
+		}
+	}
+	@media screen and (min-width: 1024px) {
+		& {
+			max-width: 980px;
+		}
+	}
+	@media screen and (min-width: 1280px) {
+		& {
+			max-width: 1024px;
+		}
+	}
 }
 
 .App {

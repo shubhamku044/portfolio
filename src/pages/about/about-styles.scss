@@ -7,6 +7,12 @@
 	&-me {
 		display: flex;
 		justify-content: space-between;
+
+		@media screen and (max-width: 1024px) {
+			& {
+				flex-direction: column-reverse;
+			}
+		}
 	}
 
 	&__left {
@@ -15,6 +21,13 @@
 		justify-content: center;
 		width: 60%;
 		letter-spacing: 0.1rem;
+
+		@media screen and (max-width: 1024px) {
+			& {
+				width: 95%;
+				margin: auto;
+			}
+		}
 
 		&-text {
 			&:not(:last-child) {
@@ -47,8 +60,14 @@
 		align-items: center;
 
 		&-img {
-			width: 65%;
+			width: 70%;
 			height: auto;
+			@media screen and (max-width: 1024px) {
+				& {
+					width: 65%;
+					margin: 3rem auto;
+				}
+			}
 		}
 	}
 

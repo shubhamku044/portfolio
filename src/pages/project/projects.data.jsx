@@ -1,45 +1,46 @@
 import project_dummy from './../../assets/project_dummy.png';
+import calculator from './../../assets/calculator.png';
+import monster_rolodex from './../../assets/monster_rolodex.png';
+import ecommerce from './../../assets/e-commerce.png';
 
 const projects = [
 	{
 		img: project_dummy,
-		title: 'Lorem Ipsum',
+		title: 'Web Scrapper',
 		description:
-			'Lorem ipsum dolor  Modi, tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit , libero consectetur?',
-		alt: 'Nam libero',
-		link: 'google.com',
+			'A web scrapper using selenium that can find best hotel deals from booking.com',
+		alt: 'Web scrapper image',
+		link: 'https://github.com/shubhamku044/getBestDealFromBookingDotComWebAutomation_python_selenium',
 	},
 	{
 		img: project_dummy,
-		title: 'shubham sharma',
+		title: 'Web Automation',
 		description:
-			'Lorem ipsum dolor ,! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit , libero consectetur?',
-		alt: 'Nam libero',
-		link: 'google.com',
+			'A captcha solver bot created using selenium that can solve google re-Captcha using 2captcha API.',
+		alt: 'Web automation image',
+		link: 'https://github.com/shubhamku044/captcha_sover_2captcha',
 	},
 	{
-		img: project_dummy,
-		title: 'shubham sharma',
+		img: ecommerce,
+		title: 'E-commerce clothing',
 		description:
-			'Lorem ipsum dolor , tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit  libero consectetur?',
-		alt: 'Nam libero',
-		link: 'google.com',
+			'An e-commerce webapp using ReactJs. Also implemented firebase authentication for google o-auth and firebase store for database.',
+		alt: 'e-commerce clothing image',
+		link: 'https://github.com/shubhamku044/ecommerce-clothing',
 	},
 	{
-		img: project_dummy,
-		title: 'shubham sharma',
+		img: monster_rolodex,
+		title: 'Monster Rolodex',
 		description:
-			'Lorem ipsum dolor s. Modi, tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae , libero consectetur?',
-		alt: 'Nam libero',
-		link: 'google.com',
+			'A webpage using ReactJs, I added filter feature to filter monsters name.',
+		alt: 'monster rolodex image',
+		link: 'https://github.com/shubhamku044/monster-rolodex',
 	},
 	{
-		img: project_dummy,
-		title: 'shubham sharma',
-		description:
-			'Lorem ipsum dolor  Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam  eaque, libero consectetur?',
-		alt: 'Nam libero',
-		link: 'google.com',
+		img: calculator,
+		title: 'A GUI calculator',
+		description: 'A gui calculator using PyQT-5.',
+		link: 'https://github.com/shubhamku044/pyqt5_gui_calculator',
 	},
 ];
 

@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
 					rel="noreferrer"
 					className="project-card__link"
 				>
-					{props.title}
+					Source Code
 				</a>
 			</div>
 			<h5 className="project-card__title">{props.title}</h5>
