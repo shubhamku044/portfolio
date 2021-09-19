@@ -29,6 +29,13 @@
 			}
 		}
 
+		@media screen and (max-width: 876px) {
+			& {
+				width: 70%;
+				margin: auto;
+			}
+		}
+
 		&-text {
 			&:not(:last-child) {
 				margin-bottom: 1rem;
@@ -41,16 +48,46 @@
 			span {
 				color: $color-orange;
 			}
+			@media screen and (max-width: 876px) {
+				& {
+					font-size: $heading-primary-md;
+				}
+			}
+			@media screen and (max-width: 480px) {
+				& {
+					font-size: $heading-primary-sm;
+				}
+			}
 		}
 
 		&-secondary {
 			font-size: $heading-secondary;
 			font-weight: 400;
+			@media screen and (max-width: 876px) {
+				& {
+					font-size: $heading-secondary-md;
+				}
+			}
+			@media screen and (max-width: 480px) {
+				& {
+					font-size: $heading-secondary-sm;
+				}
+			}
 		}
 
 		&-tertiary {
 			font-size: $heading-tertiary;
 			font-weight: 300;
+			@media screen and (max-width: 876px) {
+				& {
+					font-size: $heading-tertiary-md;
+				}
+			}
+			@media screen and (max-width: 480px) {
+				& {
+					font-size: $heading-secondary-sm;
+				}
+			}
 		}
 	}
 
@@ -77,6 +114,13 @@
 		color: $color-orange;
 		margin-bottom: 5rem;
 		margin-top: 10rem;
+
+		@media screen and (max-width: 876px) {
+			& {
+				display: flex;
+				justify-content: center;
+			}
+		}
 	}
 
 	&__logo {
@@ -90,6 +134,54 @@
 				'. . . . .'
 				'. . . . .'
 				'. . . . .';
+
+			@media screen and (max-width: 1024px) {
+				& {
+					display: grid;
+					grid-template-columns: 1fr 1fr 1fr 1fr;
+					grid-template-rows: 1fr 1fr 1fr 1fr;
+					gap: 15px 19px;
+					grid-auto-flow: row;
+					grid-template-areas:
+						'. . . .'
+						'. . . .'
+						'. . . .'
+						'. . . .';
+				}
+			}
+			@media screen and (max-width: 876px) {
+				& {
+					display: grid;
+					grid-template-columns: 1fr 1fr 1fr;
+					grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+					gap: 11px 15px;
+					grid-auto-flow: row;
+					grid-template-areas:
+						'. . . '
+						'. . . '
+						'. . . '
+						'. . . '
+						'. . . ';
+				}
+			}
+			@media screen and (max-width: 564px) {
+				& {
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+					gap: 8px 11px;
+					grid-auto-flow: row;
+					grid-template-areas:
+						'. .'
+						'. .'
+						'. .'
+						'. .'
+						'. .'
+						'. .'
+						'. .'
+						'. .';
+				}
+			}
 		}
 
 		&-item {

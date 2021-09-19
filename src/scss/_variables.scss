@@ -4,10 +4,18 @@ $btn-padding-rl: 2.3rem;
 
 // font-size
 $font-logo: 2.4rem;
+$font-logo-sm: 2.2rem;
 $font-navigation: 2rem;
+$font-navigation-sm: 1.8rem;
 $heading-primary: 6rem;
+$heading-primary-md: 4.5rem;
+$heading-primary-sm: 3.6rem;
 $heading-secondary: 4rem;
+$heading-secondary-md: 3.2rem;
+$heading-secondary-sm: 2.2rem;
 $heading-tertiary: 3rem;
+$heading-tertiary-md: 2.2rem;
+$heading-tertiary-sm: 1.6rem;
 $project-title: 2.2rem;
 $project-description: 1.4rem;
 
@@ -25,3 +33,10 @@ $icon-size-sidebar: 2.5rem;
 // Gradient colors
 $gradient-primary: #6bb2c9;
 $gradient-secondary: #ad2aaf;
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 876px) {
+}
+@media screen and (max-width: 480px) {
+}

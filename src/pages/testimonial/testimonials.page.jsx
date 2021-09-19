@@ -23,7 +23,7 @@ const TestimonialPage = () => {
 	useEffect(() => {
 		let slider = setInterval(() => {
 			setIndex(index + 1);
-		}, 5000);
+		}, 4000);
 		return () => {
 			clearInterval(slider);
 		};

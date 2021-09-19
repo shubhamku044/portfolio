@@ -27,7 +27,12 @@
 				margin: auto;
 			}
 		}
-
+		@media screen and (max-width: 876px) {
+			& {
+				width: 70%;
+				margin: auto;
+			}
+		}
 		&-text {
 			&:not(:last-child) {
 				margin-bottom: 1rem;
@@ -40,16 +45,46 @@
 			span {
 				color: $color-orange;
 			}
+			@media screen and (max-width: 876px) {
+				& {
+					font-size: $heading-primary-md;
+				}
+			}
+			@media screen and (max-width: 480px) {
+				& {
+					font-size: $heading-primary-sm;
+				}
+			}
 		}
 
 		&-secondary {
 			font-size: $heading-secondary;
 			font-weight: 400;
+			@media screen and (max-width: 876px) {
+				& {
+					font-size: $heading-secondary-md;
+				}
+			}
+			@media screen and (max-width: 480px) {
+				& {
+					font-size: $heading-secondary-sm;
+				}
+			}
 		}
 
 		&-tertiary {
 			font-size: $heading-tertiary;
 			font-weight: 300;
+			@media screen and (max-width: 876px) {
+				& {
+					font-size: $heading-tertiary-md;
+				}
+			}
+			@media screen and (max-width: 480px) {
+				& {
+					font-size: $heading-secondary-sm;
+				}
+			}
 		}
 
 		&-cta {
