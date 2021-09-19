@@ -5,7 +5,7 @@ const projects = [
 		img: project_dummy,
 		title: 'Lorem Ipsum',
 		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit molestiae similique sapiente excepturi, eaque, libero consectetur?',
+			'Lorem ipsum dolor  Modi, tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit , libero consectetur?',
 		alt: 'Nam libero',
 		link: 'google.com',
 	},
@@ -13,7 +13,7 @@ const projects = [
 		img: project_dummy,
 		title: 'shubham sharma',
 		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit molestiae similique sapiente excepturi, eaque, libero consectetur?',
+			'Lorem ipsum dolor ,! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit , libero consectetur?',
 		alt: 'Nam libero',
 		link: 'google.com',
 	},
@@ -21,7 +21,7 @@ const projects = [
 		img: project_dummy,
 		title: 'shubham sharma',
 		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit molestiae similique sapiente excepturi, eaque, libero consectetur?',
+			'Lorem ipsum dolor , tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit  libero consectetur?',
 		alt: 'Nam libero',
 		link: 'google.com',
 	},
@@ -29,7 +29,7 @@ const projects = [
 		img: project_dummy,
 		title: 'shubham sharma',
 		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit molestiae similique sapiente excepturi, eaque, libero consectetur?',
+			'Lorem ipsum dolor s. Modi, tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae , libero consectetur?',
 		alt: 'Nam libero',
 		link: 'google.com',
 	},
@@ -37,7 +37,7 @@ const projects = [
 		img: project_dummy,
 		title: 'shubham sharma',
 		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, tenetur! Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam recusandae id fugit molestiae similique sapiente excepturi, eaque, libero consectetur?',
+			'Lorem ipsum dolor  Nesciunt nulla earum tenetur possimus tempore ipsam quisquam sequi, totam  eaque, libero consectetur?',
 		alt: 'Nam libero',
 		link: 'google.com',
 	},

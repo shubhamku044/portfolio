@@ -4,21 +4,24 @@ import './project-styles.scss';
 const ProjectCard = (props) => {
 	return (
 		<div className="project-card">
-			<img
-				src={props.img}
-				alt={props.alt}
-				className="project-card__img"
-			/>
+			<div className="project-card__img-container">
+				<img
+					src={props.img}
+					alt={props.alt}
+					className="project-card__img"
+				/>
+				<a
+					href={props.link}
+					target="_blank"
+					rel="noreferrer"
+					className="project-card__link"
+				>
+					{props.title}
+				</a>
+			</div>
 			<h5 className="project-card__title">{props.title}</h5>
 			<p className="project-card__description">{props.description}</p>
-			<a
-				href={props.link}
-				target="_blank"
-				rel="noreferrer"
-				className="project-card__link"
-			>
-				Source Code
-			</a>
+			<div className="project-card__overlay"></div>
 		</div>
 	);
 };

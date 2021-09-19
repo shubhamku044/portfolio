@@ -3,15 +3,13 @@
 	margin: 8rem auto;
 	display: flex;
 	flex-direction: row;
-	// justify-content: center;
 	flex-wrap: wrap;
 	overflow: auto;
 	justify-content: center;
 	align-items: flex-start;
 	align-content: flex-start;
-	width: 65%;
 
 	&-card {
-		margin: 2rem;
+		margin: 1rem;
 	}
 }
